@@ -60,6 +60,11 @@ Data distribution comparison graphs (Original vs. Synthetic) are included inside
 * *Results & Achievements:* Successfully verified the strict privacy bounds of the low-epsilon system. By configuring a high Noise Multiplier of 3.5, the audited system yielded a highly secure empirical privacy bound of Epsilon = 0.3639, demonstrating a near-zero verifiable information disclosure compared to the infinite privacy leakage of the unprotected baseline model.
 * *Note:*
 Comparative bar charts mapping Baseline Leakage vs. Low-Epsilon Safety limits are included inside this notebook.
+**8. Differential Privacy Auditing via ROC/AUC Curves**
+  File Name: dp_empirical_privacy_auditing_roc_curve.ipynb
+  Objective: Test and measure how much private data a machine learning model leaks under a Membership Inference Attack by drawing ROC curves and calculating AUC scores.
+  Results & Achievements: Successfully tested the defense system in a real-world setup. Without protection, the baseline model leaked a lot of data with a high AUC of 0.9760. After adding Differential Privacy,   the attack failed completely and the success rate dropped to an AUC of 0.5374, which is almost equal to random guessing.
+  Note: Complete ROC/AUC trade-off plots, false-positive benchmarking matrices, and leakage visualization curves are included inside this notebook.
 
 ---
 
