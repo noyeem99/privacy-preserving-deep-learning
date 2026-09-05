@@ -114,6 +114,17 @@ Result & Achievement: The Noise Multiplier Scale decreases following an exponent
 Note: Adaptive Curve are inside the notebook
 
 
+**10.DP-SGD-Sharding-Machine-Unlearning**
+
+File Name-dp_sharding_machine_unlearning.ipynb
+
+Objective: To compare the execution time (velocity) of the Optimized DP-Sharding Unlearn  against the Traditional Full Retraining method for machine unlearning.
+
+Result & Analysis : The Optimized DP-Sharding Unlearn method  dropped the execution time to just 0.0058 seconds to 0.0184 seconds  by Traditional Full Retraining. This indicates a faster speedup (approximately 3.17x faster), proving the target of the approach in removing data from the trained model.
+
+Note: Adaptive Curve are inside the notebook
+
+
 
 
 
