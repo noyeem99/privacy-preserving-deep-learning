@@ -26,8 +26,7 @@ Results & Achievements: Successfully maintain the mathematical trade-off by vary
 Note:  Graphs and trade-off  curves are included inside this notebook.
 
 
-
-2**. DP-CNN for MNIST Image Classification**
+**2. DP-CNN for MNIST Image Classification**
 
 
 File Name: dp_cnn_mnist_image_classification.ipynb
