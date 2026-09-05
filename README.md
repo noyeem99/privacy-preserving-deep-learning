@@ -132,7 +132,22 @@ File Name-dp_sgd_speed_benchmarking_pytorch_vs_jax.ipynb
 
 Objective: To  compare the computation velocity (execution time) for 1000 samples under DP-SGD gradient calculation using a traditional PyTorch (Manual Gradient Loop) vs. an optimized JAX (vmap + JIT Compiler) setup.
 
-Result: The JAX (vmap + JIT Compiler)  speeds up computation, taking only 0.0006s, compared to 2.4649s  by the PyTorch (Manual Gradient Loop). This represents a huge acceleration (approximately 4108x faster) giving the  efficiency of JAX's vectorized and just-in-time compilation capabilities for per-sample gradient clipping in DP-SGD 
+Result: The JAX (vmap + JIT Compiler)  speeds up computation, taking only 0.0006s, compared to 2.4649s  by the PyTorch (Manual Gradient Loop). This represents a huge acceleration (approximately 4108x faster) giving the  efficiency of JAX's vectorized and just-in-time compilation capabilities for per-sample gradient clipping in DP-SGD .
+
+Note : Curves are inside the notebook
+
+
+**12.DP-Federated-Learning-non-iid-Data**
+
+File Name-dp_federated_learning_non_iid_data.ipynb
+
+Objective: To compare the training loss of two client groups over 5 rounds and To evaluate model convergence under private and non-IID data conditions.
+
+Result: Non-IID data and privacy noise cause high fluctuations in both loss curves and Client 1 loss increases at round 5, while Client 2 successfully reaches its minimum loss.
+
+Note: Curves are inside the notebook
+
+
 
 
 
