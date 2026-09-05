@@ -103,7 +103,7 @@ Results & Achievements: Got a tested  defense system in a real-world setup. With
 Note: Complete ROC/AUC trade-off plots, false-positive benchmarking matrices, and leakage visualization curves are included inside this notebook.
 
 
-09. DP-SGD -Adaptive-Noise-Scheduling
+**09. DP-SGD -Adaptive-Noise-Scheduling**
 
 File name-adaptive_noise_scheduling_dp_sgd.ipynb
 
