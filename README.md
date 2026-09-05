@@ -27,12 +27,18 @@ Note:  Graphs and trade-off  curves are included inside this notebook.
 
 
 
-### 2. DP-CNN for MNIST Image Classification
-* *File Name:* dp_cnn_mnist_image_classification.ipynb
-* *Objective:* Build a privacy-preserving Convolutional Neural Network (CNN) trained on 60,000 real-world images from the MNIST dataset.
-* *Results & Achievements:* Achieved an exceptionally strong and tight privacy guarantee of Epsilon = 0.11, reducing data leakage risks to near zero.
-* *Note:*
-Training loss curves and privacy-utility distribution plots are included inside this notebook.
+2**. DP-CNN for MNIST Image Classification**
+
+
+File Name: dp_cnn_mnist_image_classification.ipynb
+
+Objective: Make a privacy-preserving Convolutional Neural Network (CNN)  on 60,000 real-world images from the MNIST dataset.
+
+Results & Achievements: Resulted a strong and tight privacy guarantee of Epsilon = 0.11, which reduce data leakage risks to near zero.
+
+Note: Training loss curves and privacy-utility  plots are  inside this notebook.
+
+
 
 ### 3. Differentially Private Text Classification
 * *File Name:* dp-text-classification-opacus.ipynb
