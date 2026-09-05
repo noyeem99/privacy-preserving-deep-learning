@@ -39,12 +39,16 @@ Note: Training loss curves and privacy-utility  plots are  inside this notebook.
 
 
 
-### 3. Differentially Private Text Classification
-* *File Name:* dp-text-classification-opacus.ipynb
-* *Objective:* Develop a privacy-preserving text classifier utilizing NLP (Text Embedding) and Opacus to safeguard sensitive user emails and textual data.
-* *Results & Achievements:* Successfully enforced a robust differential privacy guarantee with a strict upper bound of Epsilon = 1.99.
-* *Note:*
-Epsilon growth tracking charts and accuracy metrics are included inside this notebook.
+**3. Differentially Private Text Classification**
+ 
+
+File Name: dp-text-classification-opacus.ipynb
+
+Objective: Make a privacy-preserving text classifier using NLP and Opacus to protect user emails and data.
+
+Results & Achievements: Get a privacy guarantee with a strong upper bound of Epsilon = 1.99.
+
+Note:  Epsilon growth  charts and accuracy plots are inside this notebook.
 
 ### 4. Membership Inference Attack (MIA) Defense
 * *File Name:* mia-defense-analysis-opacus.ipynb
