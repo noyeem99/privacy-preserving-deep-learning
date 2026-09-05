@@ -1,6 +1,6 @@
 # Differentially Private Machine Learning & Cybersecurity Repository
 
-This repository contains the source code, empirical analyses, and benchmarking results for 7 core projects focused on *Differential Privacy (DP)* and *Privacy-Preserving Machine Learning*. The primary objective of these projects is to guarantee mathematical privacy bounds (Epsilon) while maintaining model utility, securing text/image classification, generating safe synthetic data, fine-tuning Large Language Models (LLMs), auditing privacy leakage, and mitigating advanced cybersecurity threats.
+This repository represents the source code, analysis and  results for 12 core projects focused on Differential Privacy and Privacy Preserving Machine Learning. The target is to ensure the guarantee of mathematical privacy bounds (Epsilon) maintaining model utility, text /image classification, fine tuning large language models, using LoRA and projects to protect cyber hacking.
 
 ---
 
