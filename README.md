@@ -69,12 +69,16 @@ Results & Achievements: Got an exceptional privacy guarantee of Epsilon = 0.5 wh
 Note: Fine-tuning parameter plots and mathematical budget tracking charts are inside this notebook.
 
 
-### 6. DP Synthetic Data Generation
-* *File Name:* dp-synthetic-data-generation-mst.ipynb
-* *Objective:* Generate private, high-fidelity synthetic datasets conforming to differential privacy definitions.
-* *Results & Achievements:* Produced high-utility generative synthetic data that completely shields the underlying original records, rendering it safe for external sharing and research distribution.
-* *Note:*
-Data distribution comparison graphs (Original vs. Synthetic) are included inside this notebook.
+**6. DP Synthetic Data Generation**
+
+File Name: dp-synthetic-data-generation-mst.ipynb
+
+Objective: Generate private, high synthetic datasets conforming to differential privacy definitions.
+
+Results & Achievements: Produced high-utility generative synthetic data that completely shields the underlying original records, rendering it safe for external sharing and research distribution.
+
+Note: Data distribution comparison graphs (Original vs. Synthetic) are  inside this notebook.
+
 
 ### 7. Differential Privacy Auditing and Benchmarking: Baseline vs. Low-Epsilon Safety
 * *File Name:* dp_auditing_benchmarking_baseline_vs_safety.ipynb
