@@ -16,9 +16,13 @@ This repository represents the source code, analysis and  results for 12 core pr
 
 **1.DP-SGD Privacy-Utility Trade-off Analysis**
 
+
 File Name: dp_sgd_privacy_utility_tradeoff_analysis.ipynb
+
 Objective: Analyze how changes in the noise scale results the privacy loss (Epsilon) and the model's loss (Utility) .
+
 Results & Achievements: Successfully maintain the mathematical trade-off by varying the Noise Multiplier from 0.5 to 3.0.
+
 Note:  Graphs and trade-off  curves are included inside this notebook.
 
 
