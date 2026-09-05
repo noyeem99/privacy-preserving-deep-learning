@@ -92,14 +92,19 @@ Note:  Bar charts mapping Baseline Leakage vs. Low-Epsilon Safety limits are  in
 
 
 **8. Differential Privacy Auditing via ROC/AUC Curves**
+   
 
-  File Name: dp_empirical_privacy_auditing_roc_curve.ipynb
-  
-  Objective: Test and measure how much private data a machine learning model leaks under a Membership Inference Attack by drawing ROC curves and calculating AUC scores.
-  
-  Results & Achievements: Successfully tested the defense system in a real-world setup. Without protection, the baseline model leaked a lot of data with a high AUC of 0.9760. After adding Differential Privacy,   the attack failed completely and the success rate dropped to an AUC of 0.5374, which is almost equal to random guessing.
-  
-  Note: Complete ROC/AUC trade-off plots, false-positive benchmarking matrices, and leakage visualization curves are included inside this notebook.
+File Name: dp_empirical_privacy_auditing_roc_curve.ipynb
+
+Objective: Test and measure how private data in a machine learning model leaks under Membership Inference Attack using ROC curves and  AUC scores.
+
+Results & Achievements: Got a tested  defense system in a real-world setup. Without protection, the baseline model leaked a lot of data with a high AUC of 0.9760. After adding Differential Privacy, the attack failed completely and the rate dropped to an AUC of 0.5374, which is equal to random guessing.
+
+Note: Complete ROC/AUC trade-off plots, false-positive benchmarking matrices, and leakage visualization curves are included inside this notebook.
+
+
+
+
 
 ---
 
