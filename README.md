@@ -14,7 +14,7 @@ This repository represents the source code, analysis and  results for 12 core pr
 
 ## 🚀 Projects Overview & Empirical Results
 
-**1.DP-SGD Privacy-Utility Trade-off Analysis**
+**1. DP-SGD Privacy-Utility Trade-off Analysis**
 
 
 File Name: dp_sgd_privacy_utility_tradeoff_analysis.ipynb
