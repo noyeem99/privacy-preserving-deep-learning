@@ -103,6 +103,17 @@ Results & Achievements: Got a tested  defense system in a real-world setup. With
 Note: Complete ROC/AUC trade-off plots, false-positive benchmarking matrices, and leakage visualization curves are included inside this notebook.
 
 
+09. DP-SGD -Adaptive-Noise-Scheduling
+
+File name-adaptive_noise_scheduling_dp_sgd.ipynb
+
+Objective: To monitor the training step of the model through 20 epochs by tracking the reduction of the noise multiplier scale and  its impact on the Binary Cross-Entropy Loss for model convergence.
+
+Result & Achievement: The Noise Multiplier Scale decreases following an exponential decay curve, dropping from an initial maximum value of 2.0 at epoch 1 to approximately 1.03 by epoch 20.  The Binary Cross-Entropy Loss goes a sharp decline in the first 3 epochs, falling rapidly from over 0.725 to 0.698, and stands between 0.691 and 0.695 from epoch 5 , giving successful model convergence.
+
+Note: Adaptive Curve are inside the notebook
+
+
 
 
 
