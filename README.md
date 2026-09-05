@@ -55,7 +55,7 @@ Note:  Epsilon growth  charts and accuracy plots are inside this notebook.
 * *File Name:* mia-defense-analysis-opacus.ipynb
   
 * *Objective:* Protect machine learning models against adversarial threats where an attacker attempts to determine whether a specific data point was used in the training set.
-* 
+  
 * *Results & Achievements:* Integrated a Noise Multiplier of 1.5 using Opacus to successfully neutralize the attack, drastically degrading the hacker's attack success rate to just 51.13% (which is equivalent to random guessing).
 
 ### 5. DP LLM Fine-tuning using LoRA
