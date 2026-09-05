@@ -58,12 +58,16 @@ Objective: Protect machine learning models against adversarial threats where an 
   
 Results & Achievements: Integrated a Noise Multiplier of 1.5 using Opacus to successfully neutralize the attack, drastically degrading the hacker's attack success rate to just 51.13% (which is equivalent to random guessing).
 
-### 5. DP LLM Fine-tuning using LoRA
-* *File Name:* dp_llm_finetuning_lora_opacus.ipynb
-* *Objective:* Secure sensitive medical information during Large Language Model (LLM) customization. Implemented LoRA (Low-Rank Adaptation) for parameter-efficient tuning alongside Opacus for differential privacy tracking.
-* *Results & Achievements:* Achieved an exceptional privacy guarantee of Epsilon = 0.5 while successfully fine-tuning the model on a highly sensitive, original medical dataset.
-* *Note:*
-Fine-tuning parameter plots and mathematical budget tracking charts are included inside this notebook.
+**5.DP LLM Fine-tuning using LoRA**
+
+File Name: dp_llm_finetuning_lora_opacus.ipynb
+
+Objective: Hold a medical information in Large Language Model (LLM) . Using LoRA  for parameter tuning and Opacus for differential privacy .
+
+Results & Achievements: Got an exceptional privacy guarantee of Epsilon = 0.5 while fine-tuning the model on a sensitive, original medical dataset.
+
+Note: Fine-tuning parameter plots and mathematical budget tracking charts are inside this notebook.
+
 
 ### 6. DP Synthetic Data Generation
 * *File Name:* dp-synthetic-data-generation-mst.ipynb
