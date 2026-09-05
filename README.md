@@ -125,6 +125,15 @@ Result & Analysis : The Optimized DP-Sharding Unlearn method  dropped the execut
 Note: Adaptive Curve are inside the notebook
 
 
+**11.DP-SGD-Benchmarking-Pytorch vs jax**
+
+
+File Name-dp_sgd_speed_benchmarking_pytorch_vs_jax.ipynb
+
+Objective: To  compare the computation velocity (execution time) for 1000 samples under DP-SGD gradient calculation using a traditional PyTorch (Manual Gradient Loop) vs. an optimized JAX (vmap + JIT Compiler) setup.
+
+Result: The JAX (vmap + JIT Compiler)  speeds up computation, taking only 0.0006s, compared to 2.4649s  by the PyTorch (Manual Gradient Loop). This represents a huge acceleration (approximately 4108x faster) giving the  efficiency of JAX's vectorized and just-in-time compilation capabilities for per-sample gradient clipping in DP-SGD 
+
 
 
 
