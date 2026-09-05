@@ -80,12 +80,16 @@ Results & Achievements: Produced high-utility generative synthetic data that com
 Note: Data distribution comparison graphs (Original vs. Synthetic) are  inside this notebook.
 
 
-### 7. Differential Privacy Auditing and Benchmarking: Baseline vs. Low-Epsilon Safety
-* *File Name:* dp_auditing_benchmarking_baseline_vs_safety.ipynb
-* *Objective:* Audit and benchmark the empirical privacy leakage of models by evaluating a standard non-private baseline against a highly secure, low-epsilon configuration using Opacus.
-* *Results & Achievements:* Successfully verified the strict privacy bounds of the low-epsilon system. By configuring a high Noise Multiplier of 3.5, the audited system yielded a highly secure empirical privacy bound of Epsilon = 0.3639, demonstrating a near-zero verifiable information disclosure compared to the infinite privacy leakage of the unprotected baseline model.
-* *Note:*
-Comparative bar charts mapping Baseline Leakage vs. Low-Epsilon Safety limits are included inside this notebook.
+**7. Differential Privacy Auditing and Benchmarking: Baseline vs. Low-Epsilon Safety**
+
+File Name: dp_auditing_benchmarking_baseline_vs_safety.ipynb
+
+Objective: Audit and benchmark the privacy leakage of models with a standard non-private baseline against a strong secure, low-epsilon figure using Opacus.
+
+Results & Achievements: Get a  strict privacy bounds of the low-epsilon system. By maintaining a high Noise Multiplier of 3.5, the system hold a secure  privacy bound of Epsilon = 0.3639, with  a near-zero verifiable information  compared to the  privacy leakage of the unprotected baseline model.
+
+Note:  Bar charts mapping Baseline Leakage vs. Low-Epsilon Safety limits are  inside this notebook.
+
 
 **8. Differential Privacy Auditing via ROC/AUC Curves**
 
