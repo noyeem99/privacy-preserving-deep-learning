@@ -19,7 +19,7 @@ This repository represents the source code, analysis and  results for 12 core pr
 
 File Name: dp_sgd_privacy_utility_tradeoff_analysis.ipynb
 
-Objective: Analyze how changes in the noise scale results the privacy loss (Epsilon) and the model's loss (Utility) .
+Objective: Analyze how changes in the noise scale results in the privacy loss (Epsilon) and the model's loss (Utility) .
 
 Results & Achievements: Successfully maintain the mathematical trade-off by varying the Noise Multiplier from 0.5 to 3.0.
 
@@ -46,7 +46,7 @@ File Name: dp-text-classification-opacus.ipynb
 
 Objective: Make a privacy-preserving text classifier using NLP and Opacus to protect user emails and data.
 
-Results & Achievements: Get a privacy guarantee with a strong upper bound of Epsilon = 1.99.
+Results & Achievements: Got a privacy guarantee with a strong upper bound of Epsilon = 1.99.
 
 Note:  Epsilon growth  charts and accuracy plots are inside this notebook.
 
@@ -62,7 +62,7 @@ Results & Achievements: Integrated a Noise Multiplier of 1.5 using Opacus to suc
 
 File Name: dp_llm_finetuning_lora_opacus.ipynb
 
-Objective: Hold a medical information in Large Language Model (LLM) . Using LoRA  for parameter tuning and Opacus for differential privacy .
+Objective: Protecting medical information in Large Language Model (LLM) . Using LoRA  for parameter tuning and Opacus for differential privacy .
 
 Results & Achievements: Got an exceptional privacy guarantee of Epsilon = 0.5 while fine-tuning the model on a sensitive, original medical dataset.
 
@@ -73,7 +73,7 @@ Note: Fine-tuning parameter plots and mathematical budget tracking charts are in
 
 File Name: dp-synthetic-data-generation-mst.ipynb
 
-Objective: Generate private, high synthetic datasets conforming to differential privacy definitions.
+Objective: Generate private, high quality synthetic datasets conforming to differential privacy definitions.
 
 Results & Achievements: Produced high-utility generative synthetic data that completely shields the underlying original records, rendering it safe for external sharing and research distribution.
 
@@ -111,7 +111,7 @@ Objective: To monitor the training step of the model through 20 epochs by tracki
 
 Result & Achievement: The Noise Multiplier Scale decreases following an exponential decay curve, dropping from an initial maximum value of 2.0 at epoch 1 to approximately 1.03 by epoch 20.  The Binary Cross-Entropy Loss goes a sharp decline in the first 3 epochs, falling rapidly from over 0.725 to 0.698, and stands between 0.691 and 0.695 from epoch 5 , giving successful model convergence.
 
-Note: Adaptive Curve are inside the notebook
+Note: Adaptive Curves are inside the notebook
 
 
 **10.DP-SGD-Sharding-Machine-Unlearning**
@@ -122,7 +122,7 @@ Objective: To compare the execution time (velocity) of the Optimized DP-Sharding
 
 Result & Analysis : The Optimized DP-Sharding Unlearn method  dropped the execution time to just 0.0058 seconds to 0.0184 seconds  by Traditional Full Retraining. This indicates a faster speedup (approximately 3.17x faster), proving the target of the approach in removing data from the trained model.
 
-Note: Adaptive Curve are inside the notebook
+Note: Adaptive Bar Charts are inside the notebook
 
 
 **11.DP-SGD-Benchmarking-Pytorch vs jax**
@@ -134,7 +134,7 @@ Objective: To  compare the computation velocity (execution time) for 1000 sample
 
 Result: The JAX (vmap + JIT Compiler)  speeds up computation, taking only 0.0006s, compared to 2.4649s  by the PyTorch (Manual Gradient Loop). This represents a huge acceleration (approximately 4108x faster) giving the  efficiency of JAX's vectorized and just-in-time compilation capabilities for per-sample gradient clipping in DP-SGD .
 
-Note : Curves are inside the notebook
+Note : Adaptive Curves are inside the notebook
 
 
 **12.DP-Federated-Learning-non-iid-Data**
