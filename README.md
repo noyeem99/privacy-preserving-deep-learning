@@ -156,7 +156,7 @@ Note: Curves are inside the notebook
 
 **1. Accelerating Per-Sample Gradient Clipping in DP-SGD: A High-Performance Benchmarking Approach
 using JAX and Adaptive Noise Scheduling**
-Theme: Monitors training steps by tracking noise reduction and combines it with PyTorch vs JAX velocity benchmarking.
+Theme: Monitors training steps by tracking noise reduction and combines it with PyTorch vs JAX velocity benchmarking.
 
 **2. Empirical Privacy Auditing of Deep Learning Models: Benchmarking Membership Inference Attacks
 and Defenses via Opacus**
