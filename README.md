@@ -4,7 +4,7 @@ This repository represents the source code, analysis and  results for 12 core pr
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * *Frameworks & Libraries:* PyTorch, Opacus, Hugging Face (Transformers, PEFT)
 * *Core Concepts:* Differential Privacy (DP-SGD), Privacy-Utility Trade-off, Membership Inference Attack (MIA), LoRA Fine-tuning, Privacy Auditing & Benchmarking
@@ -12,7 +12,7 @@ This repository represents the source code, analysis and  results for 12 core pr
 
 ---
 
-## 🚀 Projects Overview & Empirical Results
+##  Projects Overview & Empirical Results
 
 **1. DP-SGD Privacy-Utility Trade-off Analysis**
 
@@ -57,6 +57,7 @@ File Name: mia-defense-analysis-opacus.ipynb
 Objective: Protect machine learning models against adversarial threats where an attacker attempts to determine whether a specific data point was used in the training set.
   
 Results & Achievements: Integrated a Noise Multiplier of 1.5 using Opacus to successfully neutralize the attack, drastically degrading the hacker's attack success rate to just 51.13% (which is equivalent to random guessing).
+
 
 **5.DP LLM Fine-tuning using LoRA**
 
@@ -147,6 +148,27 @@ Result: Non-IID data and privacy noise cause high fluctuations in both loss curv
 
 Note: Curves are inside the notebook
 
+
+
+
+**Research Manuscripts are in Preparation**
+
+
+**1. Accelerating Per-Sample Gradient Clipping in DP-SGD: A High-Performance Benchmarking Approach
+using JAX and Adaptive Noise Scheduling**
+Theme: Monitors training steps by tracking noise reduction and combines it with PyTorch vs JAX velocity benchmarking.
+
+**2. Empirical Privacy Auditing of Deep Learning Models: Benchmarking Membership Inference Attacks
+and Defenses via Opacus**
+Theme: Audits and benchmarks baseline models against low-epsilon systems using membership inference attacks and
+ROC/AUC curves.
+
+**3. Privacy-Preserving Fine-Tuning and Data Synthesis: Scaling Differential Privacy to Complex Modalities and Sensitive Medical Data**
+Theme: Holds medical information in Large Language Models using LoRA and generates private high synthetic
+datasets.
+
+**4. Scalable Data Governance in Trustworthy Machine Learning: Sharding for Accelerated Machine Unlearning and Non-IID Federated Convergence**
+Theme: Compares velocity of optimized sharding against full retraining and evaluates training loss of clients on non-IID
 
 
 
