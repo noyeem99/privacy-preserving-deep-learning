@@ -156,16 +156,17 @@ Note: Curves are inside the notebook
 
 **1. Accelerating Per-Sample Gradient Clipping in DP-SGD: A High-Performance Benchmarking Approach
 using JAX and Adaptive Noise Scheduling**
-Theme: Monitors training steps by tracking noise reduction and combines it with PyTorch vs JAX velocity benchmarking.
+
+Abstract— It is important to use DP-SGD in Differential Privacy to ensure the privacy of data, but it reduces the speed of model training. The main cause of reducing the speed is calculating each sample's gradient and counting per-sample gradient clipping. In frameworks like PyTorch, to perform this work, it is essential to apply a manual loop in the backend. To solve this problem, I use a high-optimization pipeline. Here, I use vmap in JAX and a just-in-time (JIT) compiler. Again, I use Exponential Decay-based Adaptive Noise Scheduling in 20 epochs. The result I get is that this JAX method decreases the time from 2.4649 seconds (PyTorch Baseline) to 0.0006 seconds. It increases the speed of computation to 4108x. Besides this, it also decreases the Binary Cross-Entropy loss from 0.725 to 0.693 and finally converges the model. At last, by using JAX, we can remove the computational loss and slowness of the model.
 
 **2. Empirical Privacy Auditing of Deep Learning Models: Benchmarking Membership Inference Attacks
 and Defenses via Opacus**
-Theme: Audits and benchmarks baseline models against low-epsilon systems using membership inference attacks and
-ROC/AUC curves.
+
+Abstract— The main problem of deep learning models is the Membership Inference Attack (MIA). By making this attack, a hacker can easily find out if a specific data point was used in the training set or not. If we train the baseline model without any protection, it leaks data, which results in a rise in the AUC score to 0.9760, meaning the hacker's success rate is near 100%. To audit and defend this privacy leakage, I use PyTorch Opacus to generate a less epsilon-based security system and auditing framework. I set a noise multiplier from 1.5 to 3.5 to check the model's defense. As a result, I get a strict privacy bound which is Epsilon = 0.3639. This destroys the attacking power of hackers. By adding defense, the score of the AUC score decreases from 0.9760 to 0.5374 and the hacker's success rate becomes 51.13% which means the hacker's attack is equivalent to random guessing. At last, it is proved that the proper use of differential privacy auditing and Opacus can reduce the percentage of information leakage to zero.
 
 **3. Privacy-Preserving Fine-Tuning and Data Synthesis: Scaling Differential Privacy to Complex Modalities and Sensitive Medical Data**
-Theme: Holds medical information in Large Language Models using LoRA and generates private high synthetic
-datasets.
+
+Abstract— In the medical domain, when we use large language models, there is a problem that sensitive medical information can leak if a hacker attacks the system. For the medical privacy law, it is totally prohibited to share medical data records outside. To solve this problem, I use a Dual-Layer Privacy method. First, I use LoRA (Low-Rank Adaptation) and PyTorch Opacus on a sensitive medical dataset to fine-tune the LLM model. Second, to secure data sharing outside, I use the MST (Maximum Spanning Tree) method and generate differential privacy private high-quality synthetic data. As a result, when I combine the tuning method using LoRA and Opacus, I get a unique and strong privacy guarantee of Epsilon = 0.5. My generated synthetic data highly matches the real data distribution (high utility) as well as it hides the original data. At last, it can be said that if we use fine-tuning and synthetic data generation together, it will secure internal and external research in medical dataset information.
 
 **4. Scalable Data Governance in Trustworthy Machine Learning: Sharding for Accelerated Machine Unlearning and Non-IID Federated Convergence**
 Theme: Compares velocity of optimized sharding against full retraining and evaluates training loss of clients on non-IID
