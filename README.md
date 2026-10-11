@@ -189,6 +189,11 @@ Abstract— In the medical domain, when we use large language models, there is a
 Abstract— In the present day, to ensure the "Right to be Forgotten," it becomes essential to perform Machine Unlearning. But traditionally, if we want to remove data from a model, we have to do full retraining, which is very slow and expensive. On the other side, in a Federated Learning system, when the clients' data are different, meaning that they are Non-IID Data, then it is difficult to converge the model training and reduce loss due to privacy noise. To estimate these two challenges, in this paper, I propose a scalable data governance framework. First, I use an Optimized DP-Sharding Unlearn method which ensures data unlearning without training the whole model. Second, I track the training loss convergence throughout 5 communication rounds under privacy noise and Non-IID conditions. My experimental results show that the execution time of the Optimized DP-Sharding method reduces from 0.0184 seconds to 0.0058 seconds, which means that it increases the speed 3.17x faster. In reality, we can see huge fluctuations in the loss curve, but in my system, Client 2 reaches its minimum loss successfully. At last, it is proved that a sharding-based method and right convergence tracking make the data governance and privacy work of trustworthy machine learning systems more scalable and realistic.
 
 
+**5. Optimizing Randomness Efficiency and Entropy Bounds in Deep Learning via Dithered Differential Privacy**
+   
+Abstract— Differential Privacy works like a speed breaker to stop AI models from memorizing and leaking private user data. But the big problem is that the computer has to make brand new random noise at every single step. This process is like a curse for the computer's memory and makes the processing power very slow. To solve this problem, I use a new trick to recycle and reuse the old noise instead of making new noise every time. I put this recycling trick inside the AdamW optimizer and make the code smart so it can change the recycling rules automatically. As a result, the system successfully protects the data with a strong privacy guarantee where Epsilon < 1.0, and the AI model never loses its accuracy. At last, it is proved that using this recycled noise trick can successfully save random numbers and remove all extra pressure from the computer.
+
+
 
 
 
