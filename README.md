@@ -106,16 +106,14 @@ Note: Complete ROC/AUC trade-off plots, false-positive benchmarking matrices, an
 
 **09. DP-SGD -Adaptive-Noise-Scheduling**
 
+
 • File Name: adaptive_noise_scheduling_dp_sgd.ipynb
 
-• Objective: To monitor model convergence and audit the accumulated privacy leakage over a 20-epoch training window utilizing an Exponential Decay-based Adaptive Noise Multiplier scale.
+• Objective: Monitor model convergence and track cumulative privacy leakage over 20 epochs using an adaptive noise multiplier.
 
-• Results & Achievements: Successfully resolved the random-guessing constraint by introducing correlated feature-target distributions, driving the Binary Cross-Entropy Loss down to a highly stable converged state of 0.1430. The system achieved an exceptional 98.90% Verified Downstream Evaluation Test Accuracy.
+• Results & Achievements: Successfully reduced Binary Cross-Entropy Loss to 0.1430 and achieved 98.90% evaluation accuracy. Maintained a strict mathematical privacy bound of Epsilon = 4.5093 at Delta = 1e-5.
 
-• Privacy Accounting: To fulfill strict privacy guarantee criteria, a rigorous Rényi Differential Privacy (RDP) Accountant was integrated across the dynamic decay schedule (decaying from 2.0 to 1.03), locking in an audited mathematical privacy bound of Epsilon = 4.5093 at a strict Delta = 1e-5.
-
-• Note: Fully visualized Adaptive Noise Decay Curves, empirical Loss Convergence plots, and true utility verification profiles are embedded inside this notebook
-
+• Note: Dual-axis line charts showing the Model Accuracy vs. Cumulative Epsilon trade-off are included inside this notebook
 
 **10.DP-SGD-Sharding-Machine-Unlearning**
 
