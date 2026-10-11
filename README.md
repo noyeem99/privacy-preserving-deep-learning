@@ -128,16 +128,14 @@ Note: Adaptive Bar Charts are inside the notebook
 
 **11.DP-SGD-Benchmarking-Pytorch vs jax**
 
+ File Name: dp_sgd_speed_benchmarking_pytorch_vs_jax.ipynb
 
-• • File Name: dp_sgd_speed_benchmarking_pytorch_vs_jax.ipynb
+• Objective: Compare computation velocity for 100,000 samples under DP-SGD gradient calculation using PyTorch against Google JAX.
 
-• Objective: To conduct a mathematically rigorous performance benchmark evaluating per-sample gradient computation latency across a high-load, high-dimensional matrix layout (N = 100,000 samples, D = 128 features).
+• Results & Achievements: Successfully eliminated JAX timing distortions and delivered a verified 1.11x true computational acceleration over a strong vectorized PyTorch (torch.func.vmap) baseline, executing at 0.043692s compared to 0.048554s.
 
-• Results & Achievements: Successfully eliminated JAX asynchronous execution timing distortion and false sub-millisecond readings by embedding strict jax.block_until_ready() synchronization hooks and isolating the initial JIT compilation latency overhead into a dedicated warm-up run.
+• Note: High-impact comparison bar charts plotting GPU vectorization latency differences under heavy data scaling limits are integrated within this notebook.
 
-• Baseline Benchmarking: Evaluated against an incredibly strong, industry-standard vectorized PyTorch baseline (torch.func.vmap) instead of a naive manual Python loop. Even under this fair, peer-reviewed stress test, the optimized JAX (vmap + JIT compiled) pipeline successfully delivers a verified 1.11x true computational acceleration, executing at 0.043692s compared to 0.048554s by PyTorch.
-
-• Note: High-impact, research-grade comparison bar charts plotting true GPU vectorization latency differences under heavy data scaling limits are integrated within this notebook
 
 
 **12.DP-Federated-Learning-non-iid-Data**
