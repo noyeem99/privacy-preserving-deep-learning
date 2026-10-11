@@ -149,6 +149,18 @@ Result: Non-IID data and privacy noise cause high fluctuations in both loss curv
 Note: Curves are inside the notebook
 
 
+**13. DP-λCGD Optimizer Structural Verification**
+    
+• File Name: dp_lambda_cgd_optimizer_verification.ipynb
+
+• Objective: Validate the structure of a custom coordinate-based gradient descent optimizer under privacy constraints.
+
+• Results & Achievements: Successfully verified the mathematical backend with active Rényi Differential Privacy (RDP) tracking.
+
+• Note: Verification execution logs are included inside this notebook.
+
+
+
 
 
 
